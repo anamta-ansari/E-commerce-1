@@ -96,7 +96,7 @@ export default function Home(){
           <div className="text-center lg:text-left">
             <h1 className="font-bold text-[20px] lg:text-[24px]">New Arrivals</h1>
             <h1 className="font-bold text-[28px] lg:text-[38px]">Asgaard sofa</h1>
-            <button href = "/Check-out" className="mt-4 w-[200px] h-[64px] bg-white border border-black text-[16px] rounded">
+            <button  className="mt-4 w-[200px] h-[64px] bg-white border border-black text-[16px] rounded">
               <Link href="/Single-product">Order Now</Link>
             </button>
           </div>
