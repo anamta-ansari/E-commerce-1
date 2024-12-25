@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="w-full  text-black px-[5rem] py-[3rem]">
@@ -15,10 +16,10 @@ export default function Footer() {
         <div>
           <h1 className="text-[#9F9F9F] text-lg font-semibold mb-4">Links</h1>
           <ul className="space-y-2">
-            <li className="text-black hover:text-gray-800 cursor-pointer" href="/">Home</li>
-            <li className="text-black hover:text-gray-800 cursor-pointer" href="/Shop">Shop</li>
-            <li className="text-black hover:text-gray-800 cursor-pointer" href="/About">About</li>
-            <li className="text-black hover:text-gray-800 cursor-pointer" href="/Contact">Contact</li>
+            <li className="text-black hover:text-gray-800 cursor-pointer" ><Link href="/">Home</Link></li>
+            <li className="text-black hover:text-gray-800 cursor-pointer" ><Link href="/Shop">Shop</Link></li>
+            <li className="text-black hover:text-gray-800 cursor-pointer" ><Link href="/About">About</Link></li>
+            <li className="text-black hover:text-gray-800 cursor-pointer" ><Link href="/Contact">Contact</Link></li>
           </ul>
         </div>
 
