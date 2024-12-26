@@ -45,7 +45,7 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className=" text-black px-4 py-2   underline transition"
+              className=" text-black px-2 py-2   underline transition"
             >
               Subscribe
             </button>
