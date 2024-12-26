@@ -37,7 +37,7 @@ export default function Footer() {
         <div>
           <h1 className="text-[#9F9F9F] text-lg font-semibold mb-4">Newsletter</h1>
           
-          <form className="flex  ">
+          <form className="flex justify-center gap-2 ">
             <input
               type="email"
               placeholder="Enter your email"
