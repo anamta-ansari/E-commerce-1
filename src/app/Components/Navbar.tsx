@@ -47,7 +47,7 @@ export default function Navbar ()  {
 
       {/* Mobile Menu */}
       <div className="md:hidden flex justify-center  py-2">
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-2">
           <li><Link href="/" className="hover:text-yellow-500">Home</Link></li>
           <li><Link href="/Shop" className="hover:text-yellow-500">Shop</Link></li>
           <li><Link href="/About" className="hover:text-yellow-500">About</Link></li>
