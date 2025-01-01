@@ -19,7 +19,7 @@ export default function Navbar ()  {
         </ul>
 
         {/* Icons */}
-        <div className="flex space-x-4">
+        <div className="flex space-x-2">
       {/* Search Icon */}
       <button  aria-label="Search" className="hover:text-yellow-500">
         <Link href="/Single-product">
