@@ -24,7 +24,7 @@ export default function Shop(){
 <div className="w-full h-[4rem] bg-[#F4F4F4]">
   <div className="mx-auto flex flex-col sm:flex-row items-center justify-between px-4 sm:px-10 2xl:w-[1500px]">
     
-    {/* Left Section - Filter */}
+    
     <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-10 text-center sm:text-left w-full sm:w-auto">
       <div className="flex items-center gap-2">
         <Image src="/assets/Vector (1).png" alt="" width={19} height={16} />
@@ -37,7 +37,7 @@ export default function Shop(){
       <p className="font-bold">Showing 1-16 of 32 results</p>
     </div>
     
-    {/* Right Section - Show and Sort By */}
+   
     <div className="flex gap-3 sm:gap-10 text-center sm:text-right w-full sm:w-auto">
       <p className="font-bold">Show</p>
       <button className="text-gray-400 h-[2.5rem] w-[3rem] leading-[2.5rem] bg-white">16</button>
@@ -48,7 +48,7 @@ export default function Shop(){
   </div>
 </div>
 
-{/* Product Section with Adjusted Padding/Margin */}
+
 <div className="w-full h-auto px-4 py-8 sm:px-8 sm:py-12">
   <div className="mx-auto 2xl:w-[1500px]">
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-8 mt-4 sm:mt-8">
@@ -72,30 +72,71 @@ export default function Shop(){
         <p className="font-poppins text-[16px]">Plain console with teak mirror</p>
         <p className="text-[18px]">Rs.25000.00</p>
       </div>
-
-      {/* Additional Products */}
+{/*next line */}
       <div className="text-center">
         <Image src="/assets/grain-coffee.png" alt="Teak mirror" width={240} height={174} />
-        <p className="font-poppins text-[16px]">Plain console with teak mirror</p>
-        <p className="text-[18px]">Rs.25000.00</p>
+        <p className="font-poppins text-[16px]">Grain Coffee Table</p>
+        <p className="text-[18px]">Rs.15000.00</p>
       </div>
       <div className="text-center">
         <Image src="/assets/kent-coffee.png" alt="Teak mirror" width={240} height={174} />
-        <p className="font-poppins text-[16px]">Plain console with teak mirror</p>
-        <p className="text-[18px]">Rs.25000.00</p>
+        <p className="font-poppins text-[16px]">Kent Coffee Table</p>
+        <p className="text-[18px]">Rs.225000.00</p>
       </div>
       <div className="text-center">
         <Image src="/assets/Round-coffee-table.png" alt="Teak mirror" width={240} height={174} />
-        <p className="font-poppins text-[16px]">Plain console with teak mirror</p>
-        <p className="text-[18px]">Rs.25000.00</p>
+        <p className="font-poppins text-[16px]">Round Coffee table_color</p>
+        <p className="text-[18px]">Rs.251000.00</p>
       </div>
       <div className="text-center">
         <Image src="/assets/Reclaimed-tea-coffee.png" alt="Teak mirror" width={240} height={174} />
-        <p className="font-poppins text-[16px]">Plain console with teak mirror</p>
-        <p className="text-[18px]">Rs.25000.00</p>
+        <p className="font-poppins text-[16px]">Reclaimed Teak Coffee Table</p>
+        <p className="text-[18px]">Rs.25,200.00</p>
+      </div>
+{/*next line */}
+      <div className="text-center">
+        <Image src="/assets/Plain-console.png" alt="Teak mirror" width={240} height={174} />
+        <p className="font-poppins text-[16px]">Plain Console_</p>
+        <p className="text-[18px]">Rs.25,200.00</p>
+      </div>
+      <div className="text-center">
+        <Image src="/assets/Reclaimed-teak-sideboard.png" alt="Teak mirror" width={240} height={174} />
+        <p className="font-poppins text-[16px]">Reclaimed Teak Side Board</p>
+        <p className="text-[18px]">Rs.258,200.00</p>
+      </div>
+      <div className="text-center">
+        <Image src="/assets/SJP-0825.png" alt="Teak mirror" width={240} height={174} />
+        <p className="font-poppins text-[16px]">SJP_0B25</p>
+        <p className="text-[18px]">Rs.200,200.00</p>
+      </div>
+      <div className="text-center">
+        <Image src="/assets/Bella-chair-table.png" alt="Teak mirror" width={240} height={174} />
+        <p className="font-poppins text-[16px]">Bella Chair and Table</p>
+        <p className="text-[18px]">Rs.100,000.00</p>
+      </div>
+{/*next line */}
+      <div className="text-center">
+        <Image src="/assets/Granite square side table 1.png" alt="Teak mirror" width={240} height={174} />
+        <p className="font-poppins text-[16px]">Granite Square Side table</p>
+        <p className="text-[18px]">Rs.258,800.00</p>
+      </div>
+      <div className="text-center">
+        <Image src="/assets/Asgaard sofa 1 (1).png" alt="Teak mirror" width={240} height={174} />
+        <p className="font-poppins text-[16px]">Asgaard Sofa</p>
+        <p className="text-[18px]">Rs.250,000.00</p>
+      </div>
+      <div className="text-center">
+        <Image src="/assets/Maya-sofa.png" alt="Teak mirror" width={240} height={174} />
+        <p className="font-poppins text-[16px]">Maya Sofa Three Seater</p>
+        <p className="text-[18px]">Rs.115,000.00</p>
+      </div>
+      <div className="text-center">
+        <Image src="/assets/outdoor-sofa.png" alt="Teak mirror" width={240} height={174} />
+        <p className="font-poppins text-[16px]">Outdoor Sofa Set</p>
+        <p className="text-[18px]">Rs.244,000.00</p>
       </div>
       
-      {/* Pagination */}
+     
       <div className="gap-8 flex items-center justify-center my-8 sm:my-12">
         <button className="h-[50px] w-[50px] bg-[#FBEBB5] rounded">1</button>
         <button className="h-[50px] w-[50px] bg-[#FFF9E5] rounded">2</button>
